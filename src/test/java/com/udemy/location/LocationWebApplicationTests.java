@@ -22,7 +22,7 @@ class LocationWebApplicationTests {
 	   	location.setCode("JBL");
 	   	location.setType("Urban");
 		locationService.saveLocation(location);
-    }
+    }*/
    
    
     @Test
@@ -45,7 +45,7 @@ class LocationWebApplicationTests {
 		
 		List<Location> listOfLocation = locationService.getListOfLocation();
 		System.out.println(listOfLocation);
-    }*/
+    }
 
 	@Test
     public void testDeleteLocation() {
