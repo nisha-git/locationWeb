@@ -53,8 +53,5 @@ class LocationWebApplicationTests {
 		locationService.deleteLocation(1);
     }
 	
-	public void howDoWeTest(){
-		System.out.println("hsdhjfhsjhsjs");
-	}
 
 }
