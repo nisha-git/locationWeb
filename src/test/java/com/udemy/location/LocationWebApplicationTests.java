@@ -15,14 +15,14 @@ class LocationWebApplicationTests {
 	@Autowired
 	private LocationService locationService;
 	
-	/*@Test
+	@Test
     public void testSaveLocation() {
 		Location location = new Location();
 	   	location.setName("Jabalpur");
 	   	location.setCode("JBL");
 	   	location.setType("Urban");
 		locationService.saveLocation(location);
-    }*/
+    }
    
    
     @Test
