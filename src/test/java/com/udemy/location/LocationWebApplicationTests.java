@@ -15,7 +15,7 @@ class LocationWebApplicationTests {
 	@Autowired
 	private LocationService locationService;
 	
-	@Test
+/*	@Test
     public void testSaveLocation() {
 		Location location = new Location();
 	   	location.setName("Jabalpur");
@@ -34,7 +34,7 @@ class LocationWebApplicationTests {
 		locationService.updateLocation(location);
      }
     
-	/*@Test
+	@Test
     public void testGetLocation() {
 		Location location = locationService.findById(2);
 		System.out.println(location);
