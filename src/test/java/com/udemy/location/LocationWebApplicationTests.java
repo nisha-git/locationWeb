@@ -18,7 +18,7 @@ class LocationWebApplicationTests {
 /*	@Test
     public void testSaveLocation() {
 		Location location = new Location();
-	   	location.setName("Jabalpur1");
+	   	location.setName("Jabalpur2");
 	   	location.setCode("JBL");
 	   	location.setType("Urban");
 		locationService.saveLocation(location);
