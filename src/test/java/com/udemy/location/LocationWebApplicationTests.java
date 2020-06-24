@@ -25,20 +25,20 @@ class LocationWebApplicationTests {
     }
    
    
-    /*@Test
+    @Test
      public void testUpdateLocation() {
 		Location location = locationService.findById(2);
     	location.setName("Bijuri");
     	location.setCode("BJR");
     	location.setType("Rural");
 		locationService.updateLocation(location);
-     }*/
+     }
     
-	@Test
+	/*@Test
     public void testGetLocation() {
 		Location location = locationService.findById(2);
 		System.out.println(location);
-    }
+    }*/
 
 	@Test
     public void testFindAllLocation() {
