@@ -12,7 +12,7 @@ import com.udemy.location.services.LocationService;
 @SpringBootTest
 class LocationWebApplicationTests {
    
-/*	@Autowired
+	@Autowired
 	private LocationService locationService;
 	
 	@Test
@@ -22,17 +22,17 @@ class LocationWebApplicationTests {
 	   	location.setCode("JBL");
 	   	location.setType("Urban");
 		locationService.saveLocation(location);
-    }*/
+    }
    
    
-    @Test
+    /*@Test
      public void testUpdateLocation() {
 		Location location = locationService.findById(2);
     	location.setName("Bijuri");
     	location.setCode("BJR");
     	location.setType("Rural");
 		locationService.updateLocation(location);
-     }
+     }*/
     
 	@Test
     public void testGetLocation() {
