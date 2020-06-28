@@ -47,11 +47,11 @@ class LocationWebApplicationTests {
 		System.out.println(listOfLocation);
     }
 
-	@Test
+/*	@Test
     public void testDeleteLocation() {
 		
 		locationService.deleteLocation(1);
-    }
+    }*/
 	
 
 }
